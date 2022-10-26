@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../../buttons/Button";
 import { useEffect } from "react";
-import classes from '../picarro_form/Upload_MidTex_form_Picarro.module.css'
+import classes from '../form/classes.module.css'
 import instance from "../../../../api/api";
 import { useReducer } from 'react';
 import useInput from '../hooks/use-input';
