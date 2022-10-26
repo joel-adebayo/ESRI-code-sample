@@ -147,7 +147,7 @@ const Upload_Files_Form = () => {
 
     return (
 
-        <form className={`form-group`} style={{ width: '80%' }} onSubmit={formSubmissionHandler} autoComplete="off">
+        <form className={`form-group`} onSubmit={formSubmissionHandler} autoComplete="off">
             <div className={classes.control}>
                 <label for="town">Town Name</label>
                 <input className = {townClasses} type="text" id="town"  onBlur = {townBlurHandler} onChange={townChangeHandler} value={enteredTown} ></input>
